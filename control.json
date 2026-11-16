@@ -1,18 +1,23 @@
 {
   "status": "active",
-  "latest_version": "2.0",
-  "min_supported_version": "2.0",
+  "latest_version": "3.0",
+  "min_supported_version": "3.0",
   "force_update": false,
   "update_url": "https://github.com/SpokyCqp/PySHarksEnc/releases",
-  "title": "PySHarksEnc v2.0 Operational",
-  "message": "PySHarksEnc v2.0 is active and running normally.",
+  "title": "PySHarksEnc v3.0 Operational",
+  "message": "PySHarksEnc v3.0 is active and running normally.",
   "versions": {
     "1.0": {
       "status": "deprecated",
       "force_update": true,
-      "message": "PySHarksEnc v1.0 has been retired. Please update to PySHarksEnc v2.0 from GitHub to continue using the app."
+      "message": "PySHarksEnc v1.0 has been retired. Please update to PySHarksEnc v3.0 from GitHub to continue using the app."
     },
     "2.0": {
+      "status": "deprecated",
+      "force_update": true,
+      "message": "PySHarksEnc v2.0 has been upgraded. Please update to PySHarksEnc v3.0 for enhanced anti-REA armor."
+    },
+    "3.0": {
       "status": "active",
       "force_update": false,
       "message": ""
